@@ -27,9 +27,11 @@ class ViewController: UIViewController {
 
     @IBAction func clickYankees(sender: AnyObject) {
         redsoxImg.hidden = true
+        yankeesImg.hidden = false
     }
     
     @IBAction func clickRedsox(sender: AnyObject) {
         yankeesImg.hidden = true
+        redsoxImg.hidden = false
     }
 }
