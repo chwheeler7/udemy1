@@ -2,8 +2,8 @@
   "images" : [
     {
       "idiom" : "universal",
-      "scale" : "1x",
-      "filename" : "Boston_Red_Sox_logo.png"
+      "filename" : "Boston-Red-Sox-Logo.png",
+      "scale" : "1x"
     },
     {
       "idiom" : "universal",

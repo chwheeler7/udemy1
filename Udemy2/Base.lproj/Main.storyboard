@@ -73,7 +73,7 @@
         </scene>
     </scenes>
     <resources>
-        <image name="Boston_Red_Sox_logo" width="1024" height="768"/>
+        <image name="Boston_Red_Sox_logo" width="2000" height="1955"/>
         <image name="Yankees_logo" width="451" height="504"/>
     </resources>
 </document>
