@@ -52,13 +52,7 @@
                         <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
-                    <toolbarItems>
-                        <barButtonItem title="Item1" id="eaH-Bk-8MY"/>
-                        <barButtonItem style="plain" systemItem="flexibleSpace" id="3hf-ae-xuj"/>
-                        <barButtonItem title="Item2" id="pAI-1E-YZn"/>
-                        <barButtonItem style="plain" systemItem="flexibleSpace" id="Odt-KC-zvi"/>
-                        <barButtonItem title="Item3" id="Dht-GI-Kyk"/>
-                    </toolbarItems>
+                    <toolbarItems/>
                     <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
                     <connections>
