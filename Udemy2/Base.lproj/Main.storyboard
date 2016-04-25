@@ -21,7 +21,7 @@
                             <imageView hidden="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Boston_Red_Sox_logo" translatesAutoresizingMaskIntoConstraints="NO" id="lMj-9b-el4">
                                 <rect key="frame" x="30" y="70" width="540" height="326"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Yankees_logo" translatesAutoresizingMaskIntoConstraints="NO" id="ey0-3M-4Rs">
+                            <imageView hidden="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Yankees_logo" translatesAutoresizingMaskIntoConstraints="NO" id="ey0-3M-4Rs">
                                 <rect key="frame" x="30" y="70" width="540" height="326"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1cW-fl-BMT">
