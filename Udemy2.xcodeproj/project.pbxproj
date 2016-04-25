@@ -12,18 +12,7 @@
 		18C4FEA71CCC4BC6002A696A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18C4FEA51CCC4BC6002A696A /* Main.storyboard */; };
 		18C4FEA91CCC4BC6002A696A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18C4FEA81CCC4BC6002A696A /* Images.xcassets */; };
 		18C4FEAC1CCC4BC6002A696A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18C4FEAA1CCC4BC6002A696A /* LaunchScreen.xib */; };
-		18C4FEB81CCC4BC6002A696A /* Udemy2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C4FEB71CCC4BC6002A696A /* Udemy2Tests.swift */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		18C4FEB21CCC4BC6002A696A /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 18C4FE941CCC4BC5002A696A /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 18C4FE9B1CCC4BC6002A696A;
-			remoteInfo = Udemy2;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		18C4FE9C1CCC4BC6002A696A /* Udemy2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Udemy2.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -33,20 +22,12 @@
 		18C4FEA61CCC4BC6002A696A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		18C4FEA81CCC4BC6002A696A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		18C4FEAB1CCC4BC6002A696A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		18C4FEB11CCC4BC6002A696A /* Udemy2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Udemy2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		18C4FEB61CCC4BC6002A696A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		18C4FEB71CCC4BC6002A696A /* Udemy2Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Udemy2Tests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		18C4FE991CCC4BC6002A696A /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		18C4FEAE1CCC4BC6002A696A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -69,7 +50,6 @@
 			isa = PBXGroup;
 			children = (
 				18C4FE9C1CCC4BC6002A696A /* Udemy2.app */,
-				18C4FEB11CCC4BC6002A696A /* Udemy2Tests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -132,24 +112,6 @@
 			productReference = 18C4FE9C1CCC4BC6002A696A /* Udemy2.app */;
 			productType = "com.apple.product-type.application";
 		};
-		18C4FEB01CCC4BC6002A696A /* Udemy2Tests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 18C4FEBE1CCC4BC6002A696A /* Build configuration list for PBXNativeTarget "Udemy2Tests" */;
-			buildPhases = (
-				18C4FEAD1CCC4BC6002A696A /* Sources */,
-				18C4FEAE1CCC4BC6002A696A /* Frameworks */,
-				18C4FEAF1CCC4BC6002A696A /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				18C4FEB31CCC4BC6002A696A /* PBXTargetDependency */,
-			);
-			name = Udemy2Tests;
-			productName = Udemy2Tests;
-			productReference = 18C4FEB11CCC4BC6002A696A /* Udemy2Tests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -169,10 +131,6 @@
 							};
 						};
 					};
-					18C4FEB01CCC4BC6002A696A = {
-						CreatedOnToolsVersion = 6.3;
-						TestTargetID = 18C4FE9B1CCC4BC6002A696A;
-					};
 				};
 			};
 			buildConfigurationList = 18C4FE971CCC4BC5002A696A /* Build configuration list for PBXProject "Udemy2" */;
@@ -189,7 +147,6 @@
 			projectRoot = "";
 			targets = (
 				18C4FE9B1CCC4BC6002A696A /* Udemy2 */,
-				18C4FEB01CCC4BC6002A696A /* Udemy2Tests */,
 			);
 		};
 /* End PBXProject section */
@@ -205,13 +162,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		18C4FEAF1CCC4BC6002A696A /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -224,23 +174,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		18C4FEAD1CCC4BC6002A696A /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				18C4FEB81CCC4BC6002A696A /* Udemy2Tests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		18C4FEB31CCC4BC6002A696A /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 18C4FE9B1CCC4BC6002A696A /* Udemy2 */;
-			targetProxy = 18C4FEB21CCC4BC6002A696A /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		18C4FEA51CCC4BC6002A696A /* Main.storyboard */ = {
@@ -374,42 +308,6 @@
 			};
 			name = Release;
 		};
-		18C4FEBF1CCC4BC6002A696A /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = Udemy2Tests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.Wheeler.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Udemy2.app/Udemy2";
-			};
-			name = Debug;
-		};
-		18C4FEC01CCC4BC6002A696A /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = Udemy2Tests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.Wheeler.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Udemy2.app/Udemy2";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -427,15 +325,6 @@
 			buildConfigurations = (
 				18C4FEBC1CCC4BC6002A696A /* Debug */,
 				18C4FEBD1CCC4BC6002A696A /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		18C4FEBE1CCC4BC6002A696A /* Build configuration list for PBXNativeTarget "Udemy2Tests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				18C4FEBF1CCC4BC6002A696A /* Debug */,
-				18C4FEC01CCC4BC6002A696A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
