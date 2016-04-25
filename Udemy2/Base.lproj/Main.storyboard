@@ -18,14 +18,14 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <imageView hidden="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="Boston_Red_Sox_logo" translatesAutoresizingMaskIntoConstraints="NO" id="lMj-9b-el4">
-                                <rect key="frame" x="11" y="68" width="579" height="335"/>
+                            <imageView hidden="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Boston_Red_Sox_logo" translatesAutoresizingMaskIntoConstraints="NO" id="lMj-9b-el4">
+                                <rect key="frame" x="30" y="70" width="540" height="326"/>
                             </imageView>
-                            <imageView hidden="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="Yankees_logo" translatesAutoresizingMaskIntoConstraints="NO" id="ey0-3M-4Rs">
-                                <rect key="frame" x="11" y="68" width="579" height="335"/>
+                            <imageView hidden="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Yankees_logo" translatesAutoresizingMaskIntoConstraints="NO" id="ey0-3M-4Rs">
+                                <rect key="frame" x="30" y="70" width="540" height="326"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1cW-fl-BMT">
-                                <rect key="frame" x="11" y="483" width="579" height="65"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1cW-fl-BMT">
+                                <rect key="frame" x="30" y="481" width="540" height="65"/>
                                 <color key="backgroundColor" red="0.89664623619999995" green="0.89664623619999995" blue="0.89664623619999995" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="65" id="tJK-gF-SgF"/>
@@ -39,8 +39,8 @@
                                     <action selector="clickRedsox:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="YCU-mE-6rk"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Which team do you prefer?" textAlignment="center" lineBreakMode="tailTruncation" minimumScaleFactor="0.10000000000000001" translatesAutoresizingMaskIntoConstraints="NO" id="xUw-h6-vSF">
-                                <rect key="frame" x="11" y="20" width="579" height="50"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Which team do you prefer?" textAlignment="center" lineBreakMode="tailTruncation" minimumScaleFactor="0.10000000000000001" translatesAutoresizingMaskIntoConstraints="NO" id="xUw-h6-vSF">
+                                <rect key="frame" x="30" y="20" width="540" height="50"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="50" id="USL-jI-2bh"/>
                                 </constraints>
@@ -48,8 +48,8 @@
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uLB-1G-K1j">
-                                <rect key="frame" x="11" y="410" width="579" height="65"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uLB-1G-K1j">
+                                <rect key="frame" x="30" y="406" width="540" height="65"/>
                                 <color key="backgroundColor" red="0.89664623619999995" green="0.89664623619999995" blue="0.89664623619999995" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="65" id="Bg3-Nm-ozT"/>
